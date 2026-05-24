@@ -2,13 +2,13 @@
 
 > A production-ready AI customer support bot for a Japanese general marketplace — with confidence scoring, human escalation, and bilingual Japanese/English support.
 
-**Built as Level 2 — Project 2A of an AI Engineer → AI Product Manager roadmap targeting the Japanese tech market.**
+**Built as Level 2 — Project 2A of an AI Engineer targeting the Japanese tech market.**
 
 ---
 
 ## 🎯 Live Demo
 
-🌸 **[Try Sakura Shop Support →](https://sakura-shop-support.streamlit.app)**
+🌸 **[Try Sakura Shop Support →](https://sakura-shop-support-mn9v3asmjgcfh7chhberlx.streamlit.app)**
 
 ---
 
