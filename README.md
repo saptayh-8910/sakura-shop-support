@@ -1,4 +1,4 @@
-# 🌸 Sakura Shop AI Customer Support / 桜ショップ AIカスタマーサポート
+# Sakura Shop AI Customer Support / 桜ショップ AIカスタマーサポート
 
 > A production-ready AI customer support bot for a Japanese general marketplace — with confidence scoring, human escalation, and bilingual Japanese/English support.
 
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 Live Demo
+## Live Demo
 
-🌸 **[Try Sakura Shop Support →](https://sakura-shop-support-mn9v3asmjgcfh7chhberlx.streamlit.app)**
+ **[Try Sakura Shop Support →](https://sakura-shop-support-mn9v3asmjgcfh7chhberlx.streamlit.app)**
 
 ---
 
-## ✨ What Makes This Different
+##  What Makes This Different
 
 | Feature | Why It Matters |
 |---|---|
@@ -25,7 +25,7 @@
 
 ---
 
-## 🤖 How It Works
+##  How It Works
 
 ```
 Customer Question (EN or JP)
@@ -43,18 +43,18 @@ Answer in customer's language + source citation
 
 ---
 
-## 📋 Supported Topics
+## Supported Topics
 
-- 📦 Orders & shipping / 注文と配送
-- 🔄 Returns & refunds / 返品と返金
-- 💳 Payment methods / お支払い方法
-- 👤 Account & Premium membership / アカウントと会員
-- 🛍️ Products & sellers / 商品と販売者
-- 📞 Customer support escalation / サポートエスカレーション
+-  Orders & shipping / 注文と配送
+-  Returns & refunds / 返品と返金
+-  Payment methods / お支払い方法
+-  Account & Premium membership / アカウントと会員
+-  Products & sellers / 商品と販売者
+-  Customer support escalation / サポートエスカレーション
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ```bash
 git clone https://github.com/saptayh-8910/sakura-shop-support.git
@@ -80,7 +80,7 @@ streamlit run app.py
 
 ---
 
-## 🏗️ Stack
+##  Stack
 
 - **LLM**: Claude Haiku (`claude-haiku-4-5-20251001`) — fast, cost-efficient
 - **Embeddings**: `intfloat/multilingual-e5-large` — Japanese + English
@@ -90,7 +90,7 @@ streamlit run app.py
 
 ---
 
-## 🇯🇵 Japan Market Relevance
+##  Japan Market Relevance
 
 This architecture mirrors customer support AI systems deployed at:
 - **PayPay** — 24/7 automated support with human escalation
@@ -101,7 +101,7 @@ Cost to run: ~¥3,000–5,000/month for a small business deployment.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sakura-shop-support/
@@ -113,5 +113,3 @@ sakura-shop-support/
 ```
 
 ---
-
-*Part of an AI Engineer → Senior AI Product Manager portfolio · [View full roadmap](https://github.com/saptayh-8910/rag-assistant)*
