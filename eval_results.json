@@ -1,0 +1,202 @@
+{
+  "date": "2026-06-03 15:31",
+  "version": "1.0",
+  "model": "claude-haiku-4-5-20251001",
+  "questions_tested": 10,
+  "breakdown": {
+    "english": 6,
+    "japanese": 4,
+    "answerable": 7,
+    "unanswerable": 3
+  },
+  "ground_truth_type": "human-labeled",
+  "aggregate_scores": {
+    "answer_correctness": 0.94,
+    "confidence_calibration": 0.8,
+    "escalation_accuracy": 0.8,
+    "language_match": 1.0
+  },
+  "overall_score": 0.885,
+  "per_test": [
+    {
+      "test_case": "EN01",
+      "question": "How long does shipping take?",
+      "language": "en",
+      "answerable": true,
+      "elapsed_seconds": 3.15,
+      "scores": {
+        "correctness": 0.9,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "Hello! Thanks for asking about shipping times. Here's what we offer at Sakura Shop:\n\n**Shipping Options:**\n- **Standard Shipping**: 2-5 business days "
+      }
+    },
+    {
+      "test_case": "EN02",
+      "question": "What is your return policy?",
+      "language": "en",
+      "answerable": true,
+      "elapsed_seconds": 2.08,
+      "scores": {
+        "correctness": 0.9,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "Thank you for asking! Here's our return policy at Sakura Shop:\n\n**Return Period:**\n- Returns are accepted within **30 days of delivery**\n\n**Conditions"
+      }
+    },
+    {
+      "test_case": "EN03",
+      "question": "What payment methods do you accept?",
+      "language": "en",
+      "answerable": true,
+      "elapsed_seconds": 1.72,
+      "scores": {
+        "correctness": 0.9,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "Hello! Thank you for asking! \ud83d\ude0a\n\nWe accept a wide variety of payment methods at Sakura Shop:\n\n**Credit Cards:**\n- Visa\n- Mastercard\n- JCB\n- American Ex"
+      }
+    },
+    {
+      "test_case": "EN04",
+      "question": "What are the benefits of Premium membership?",
+      "language": "en",
+      "answerable": true,
+      "elapsed_seconds": 2.74,
+      "scores": {
+        "correctness": 0.85,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "Thank you for asking about our Premium membership! Here are the great benefits you'll enjoy:\n\n**Premium Membership Benefits:**\n- **Free Express Shippi"
+      }
+    },
+    {
+      "test_case": "JP01",
+      "question": "\u914d\u9001\u306b\u306f\u3069\u306e\u304f\u3089\u3044\u304b\u304b\u308a\u307e\u3059\u304b\uff1f",
+      "language": "jp",
+      "answerable": true,
+      "elapsed_seconds": 2.25,
+      "scores": {
+        "correctness": 0.95,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "\u3053\u3093\u306b\u3061\u306f\uff01\u3054\u8cea\u554f\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\n\u685c\u30b7\u30e7\u30c3\u30d7\u306e\u914d\u9001\u306b\u304b\u304b\u308b\u6642\u9593\u306b\u3064\u3044\u3066\u3067\u3059\u304c\u3001\u4ee5\u4e0b\u306e2\u3064\u306e\u30aa\u30d7\u30b7\u30e7\u30f3\u304c\u3054\u3056\u3044\u307e\u3059\uff1a\n\n**\u6a19\u6e96\u914d\u9001**\n- \u56fd\u51852\u301c5\u55b6\u696d\u65e5\u3067\u304a\u5c4a\u3051\u3057\u307e\u3059\n\n**\u901f\u9054\u914d\u9001**\n- 1\u301c2\u55b6\u696d\u65e5\u3067\u304a\u5c4a\u3051\u3057\u307e\u3059\n\n\u307e\u305f\u3001**\u00a53,000\u4ee5\u4e0a\u306e\u3054\u6ce8\u6587\u306f\u9001\u6599\u7121\u6599**\u3068\u306a\u308a\u307e\u3059\u3002\n\n"
+      }
+    },
+    {
+      "test_case": "JP02",
+      "question": "\u8fd4\u54c1\u30dd\u30ea\u30b7\u30fc\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+      "language": "jp",
+      "answerable": true,
+      "elapsed_seconds": 3.87,
+      "scores": {
+        "correctness": 0.95,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "\u685c\u30b7\u30e7\u30c3\u30d7\u306e\u8fd4\u54c1\u30dd\u30ea\u30b7\u30fc\u306b\u3064\u3044\u3066\u3054\u8aac\u660e\u3057\u307e\u3059\u3002\n\n**\u8fd4\u54c1\u671f\u9593**\n\u914d\u9054\u5f8c30\u65e5\u4ee5\u5185\u3067\u3057\u305f\u3089\u8fd4\u54c1\u3092\u53d7\u3051\u4ed8\u3051\u3066\u304a\u308a\u307e\u3059\u3002\n\n**\u8fd4\u54c1\u306e\u6761\u4ef6**\n\u5546\u54c1\u304c\u672a\u4f7f\u7528\u3067\u3001\u5143\u306e\u68b1\u5305\u72b6\u614b\u3067\u3042\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002\n\n**\u8fd4\u91d1\u51e6\u7406**\n\u8fd4\u54c1\u304c\u78ba\u8a8d\u3055\u308c\u305f\u5f8c\u30015\u301c7\u55b6\u696d\u65e5\u4ee5\u5185\u306b\u8fd4\u91d1\u3092\u51e6\u7406\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u3002\n\n**\u8fd4\u9001\u6599\u306b\u3064"
+      }
+    },
+    {
+      "test_case": "JP03",
+      "question": "\u30d7\u30ec\u30df\u30a2\u30e0\u4f1a\u54e1\u306e\u7279\u5178\u306f\u4f55\u3067\u3059\u304b\uff1f",
+      "language": "jp",
+      "answerable": true,
+      "elapsed_seconds": 2.78,
+      "scores": {
+        "correctness": 0.95,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "high",
+        "needs_escalation": false,
+        "answer_preview": "\u30d7\u30ec\u30df\u30a2\u30e0\u4f1a\u54e1\u306e\u3054\u8cea\u554f\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\ud83c\udf38\n\n\u685c\u30b7\u30e7\u30c3\u30d7\u306e\u30d7\u30ec\u30df\u30a2\u30e0\u4f1a\u54e1\u306b\u306f\u3001\u4ee5\u4e0b\u306e\u7279\u5178\u304c\u3042\u308a\u307e\u3059\uff1a\n\n\u2728 **\u30d7\u30ec\u30df\u30a2\u30e0\u4f1a\u54e1\u306e\u7279\u5178**\n- **\u901f\u9054\u9001\u6599\u7121\u6599** - \u3044\u3064\u3067\u3082\u9001\u6599\u7121\u6599\u3067\u901f\u9054\u914d\u9001\uff08\u901a\u5e381\u301c2\u55b6\u696d\u65e5\uff09\n- **5%\u30ad\u30e3\u30c3\u30b7\u30e5\u30d0\u30c3\u30af** - \u3059\u3079\u3066\u306e\u3054\u8cfc\u5165\u30675%\u9084\u5143\n- **\u512a\u5148\u30b5\u30dd"
+      }
+    },
+    {
+      "test_case": "UN01",
+      "question": "Can you give me a discount code for my next purchase?",
+      "language": "en",
+      "answerable": false,
+      "elapsed_seconds": 2.15,
+      "scores": {
+        "correctness": 1.0,
+        "confidence_calibration": 1.0,
+        "escalation_accuracy": 1.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "low",
+        "needs_escalation": true,
+        "answer_preview": "Thank you for reaching out! I appreciate your interest in getting a discount code for your next purchase. Unfortunately, I don't have information abou"
+      }
+    },
+    {
+      "test_case": "UN02",
+      "question": "I need to report a seller for fraud. What is the legal process?",
+      "language": "en",
+      "answerable": false,
+      "elapsed_seconds": 2.96,
+      "scores": {
+        "correctness": 1.0,
+        "confidence_calibration": 0.0,
+        "escalation_accuracy": 0.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "medium",
+        "needs_escalation": false,
+        "answer_preview": "Thank you for reaching out about this serious concern. Based on our knowledge base, I can tell you that you can report seller issues directly through "
+      }
+    },
+    {
+      "test_case": "UN03",
+      "question": "\u6ce8\u6587\u756a\u53f7#12345\u306e\u914d\u9054\u72b6\u6cc1\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+      "language": "jp",
+      "answerable": false,
+      "elapsed_seconds": 2.81,
+      "scores": {
+        "correctness": 1.0,
+        "confidence_calibration": 0.0,
+        "escalation_accuracy": 0.0,
+        "language_match": 1.0
+      },
+      "model_output": {
+        "confidence": "medium",
+        "needs_escalation": false,
+        "answer_preview": "\u3054\u8cea\u554f\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\n\n\u6ce8\u6587\u756a\u53f7#12345\u306e\u914d\u9054\u72b6\u6cc1\u306b\u3064\u3044\u3066\u3067\u3059\u304c\u3001\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u304c\u3001\u500b\u5225\u306e\u6ce8\u6587\u8a73\u7d30\u306f\u3053\u3061\u3089\u306e\u30b7\u30b9\u30c6\u30e0\u3067\u306f\u3054\u78ba\u8a8d\u3067\u304d\u307e\u305b\u3093\u3002\n\n\u305f\u3060\u3057\u3001**\u30de\u30a4\u30da\u30fc\u30b8\u306e\u300c\u6ce8\u6587\u5c65\u6b74\u300d\u304b\u3089\u8ffd\u8de1\u304c\u53ef\u80fd**\u3067\u3059\u3002\u4ee5\u4e0b\u306e\u624b\u9806\u3067\u3054\u78ba\u8a8d\u3044\u305f\u3060\u3051\u307e\u3059\uff1a\n\n1. \u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u30ed\u30b0\u30a4\u30f3\n2. \u300c\u30de\u30a4\u30da\u30fc\u30b8"
+      }
+    }
+  ]
+}
