@@ -43,6 +43,21 @@ Answer in customer's language + source citation
 
 ---
 
+## Evaluation
+
+Tested on 10 questions (7 answerable, 3 unanswerable) in English and Japanese.
+
+| Metric | Score |
+|---|---|
+| Answer Correctness | **94.0%** |
+| Confidence Calibration | **80.0%** |
+| Escalation Accuracy | **80.0%** |
+| Language Match (EN/JP) | **100%** |
+
+Evaluation script: `evaluate_sakura_support.py` · Results: `eval_results.json`
+
+---
+
 ## Supported Topics
 
 -  Orders & shipping / 注文と配送
