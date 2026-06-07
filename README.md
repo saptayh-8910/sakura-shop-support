@@ -116,15 +116,16 @@ Cost to run: ~¥3,000–5,000/month for a small business deployment.
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 sakura-shop-support/
-├── app.py                  # Main Streamlit application
+├── app.py                      # Main Streamlit application
+├── evaluate_sakura_support.py  # Evaluation script
+├── eval_results.json           # Latest evaluation scores
 ├── docs/
-│   └── sakura_faq.md       # Bilingual FAQ knowledge base
+│   └── sakura_faq.md           # Bilingual FAQ knowledge base
 ├── .gitignore
 └── README.md
 ```
-
 ---
